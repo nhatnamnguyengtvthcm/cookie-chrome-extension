@@ -1,0 +1,44 @@
+body {
+    width: 500px; /* Kích thước chiều rộng */
+    height: auto; /* Chiều cao tự động */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.container-fluid {
+    max-width: 500px;
+}
+.row {
+    width: 100%;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.info-section {
+    background-color: #4e73df;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+.form-section {
+    padding: 2rem;
+}
+.form-label {
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .info-section {
+        padding: 1rem;
+    }
+    .card {
+        margin-bottom: 1rem;
+    }
+}
